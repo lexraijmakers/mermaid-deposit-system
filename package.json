@@ -1,0 +1,25 @@
+{
+    "name": "flowchart-no-deposit",
+    "version": "1.0.0",
+    "description": "flowchart-no-deposit",
+    "main": "src/index.ts",
+    "repository": "git@github.com:lexraijmakers/flowchart-no-deposit.git",
+    "author": "lexraijmakers <lex.raijmakers@gmail.com>",
+    "license": "MIT",
+    "private": false,
+    "type": "module",
+    "scripts": {
+        "start": "ts-node src/index.ts"
+    },
+    "dependencies": {
+        "@mermaid-js/mermaid-cli": "^10.1.0",
+        "mermaid": "^10.1.0"
+    },
+    "devDependencies": {
+        "@tsconfig/node18": "^2.0.0",
+        "@types/node": "^20.0.0",
+        "prettier": "^2.8.8",
+        "ts-node": "^10.9.1",
+        "typescript": "^5.0.4"
+    }
+}
